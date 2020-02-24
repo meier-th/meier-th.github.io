@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ivan Viaznikov</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="fullpage">
+    <section class="page hint-section" id="first-page">
+    <header class="name-block">
+        <h1>Ivan Viaznikov</h1>
+        <h4>Freelance Web developer based in Saint-Petersburg, Russia</h4>
+    </header>
+    <section class="intro-block">
+        <p>
+            Fully responsive web applications using mainstream frameworks
+            or pure HTML, CSS & JS</p>
+        <p>Minimalistic design</p>
+        <p>Keep it simple</p>
+        <!--<span id="contact-link-button" class="contact-button" data-menuanchor="contacts">
+            <a href="#contacts">Contact me</a>
+        </span>-->
+    </section>
+    <div class="images">
+        <img class="back-image" id="smartphone-img" src="images/smartphone.svg">
+        <img class="back-image" id="tablet-img" src="images/tablet.svg">
+        <img class="back-image" id="laptop-img" src="images/laptop.svg">
+    </div>
+    </section>
+    <section class="page hint-section" id="second-page">
+        <div class="skills-and-bio">
+            <div id="skills-list">
+                <h3>Key skills</h3>
+                <ul class="skills-ul">
+                    <li>HTML, CSS, JS</li>
+                    <li>Angular 2+</li>
+                    <li>SCSS, Less</li>
+                    <li>Template languages</li>
+                    <li>React, Redux</li>
+                    <li>Willingness to learn</li>
+                </ul>
+            </div>
+            <div id="tools-list">
+                <h3>Tools</h3>
+                <ul class="skills-ul">
+                    <li>NPM</li>
+                    <li>Webpack</li>
+                    <li>Docker</li>
+                    <li>git</li>
+                    <li>VSCode</li>
+                    <li>GiMP</li>
+                    <li>Figma</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Pen&paper</li>
+                </ul>
+            </div>
+            <div id="aboutme">
+                <h3>About me</h3>
+                <div class="pic-bio-container">
+                <img id="profile-pic" src="images/profile.jpg">
+                <p class="bio-text">Hi! My name's Ivan and I'm a web developer.
+                    Studying for my Bachelor's Degree in Computer Science,
+                    I've spent last year and a half building web applications 
+                    on both back and front end. In case you're looking for a front end
+                    developer to bring your ideas to life, contact me and we'll discuss the details.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page" id="third-page">
+        <h3 id="third-page-header">Recent projects</h3>
+        <div class="projects-container">
+            <div class="project-div" id="anf-project">
+                <img class="project-screenshot" src="images/anf.jpg">
+                <div class="curtain" id="anf-curtain">
+                    <div class="curtain-content">
+                    <p>Online fighting game with social network elements</p>
+                    <div class="techs-container">
+                        <span class="tech-span">Angular</span>
+                        <span class="tech-span">Spring</span>
+                        <span class="tech-span">WebSockets</span>
+                        <span class="tech-span">Less</span>
+                        <span class="tech-span">SVG</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/meier-th/ANF_game" target="_blank">GitHub</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-div" id="moscow-project">
+                <img class="project-screenshot" src="images/moscow.png">
+                <div class="curtain" id="moscow-curtain">
+                    <div class="curtain-content">
+                    <p>Tourist 'Live like a local' service, based on map areas</p>
+                    <div class="techs-container">
+                        <span class="tech-span">Angular</span>
+                        <span class="tech-span">Microservices</span>
+                        <span class="tech-span">Yandex Maps API</span>
+                        <span class="tech-span">Less</span>
+                        <span class="tech-span">Clarity</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Hyperproteinemia/frontend" target="_blank">GitHub</a>
+                        <a href="http://laurenfrost.tk" target="_blank">Visit</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="last-project-wrap project-div">-->
+            <div class="project-div" id="seifmo-project">
+                <img class="project-screenshot" src="images/seifmo.png">
+                <div class="curtain" id="seifmo-curtain">
+                    <div class="curtain-content">
+                    <p>University department Liferay portal theme</p>
+                    <div class="techs-container">
+                        <span class="tech-span">Liferay</span>
+                        <span class="tech-span">SCSS</span>
+                        <span class="tech-span">Compass</span>
+                        <span class="tech-span">FreeMarker</span>
+                        <span class="tech-span">Velocity</span>
+                        <span class="tech-span">Portlets</span>
+                    </div>
+                    <div class="project-links">
+                            <a href="https://github.com/meier-th/helios_theme" target="_blank">GitHub</a>
+                            <a href="https://se.ifmo.ru" target="_blank">Visit</a>
+                    </div>
+                    </div>
+                </div>
+            <!--</div>-->
+            </div>
+        </div>
+        <h3>Contact me</h3>
+        <div class="contacts">
+            <p>email: meier.d.th@gmail.com</p>
+            <p>Telegram: @th_meier</p>
+        </div>
+        <footer class="footer">
+            <ul class="footer-links">
+                <li>follow me</li>
+                <li><a href="https://github.com/meier-th" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com/th_meier/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/ThomasSteinman8" target="_blank">Twitter</a></li>
+            </ul>
+        </footer>
+    </section>
+    </div>
+	<script src='jquery.fullpage.min.js'></script>
+</body>
+</html>
