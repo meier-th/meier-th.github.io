@@ -500,3 +500,30 @@ body {
         }
     }
 }
+
+@media (hover: none), (max-width: 1250px) {
+    .curtain {
+        height: 100%;
+    }
+    .curtain-content {
+        font-size: 1.9vw;
+        padding: 3px;
+    }
+    .curtain-content p {
+        margin: 0;
+    }
+    .tech-span {
+        padding: 1px;
+        margin-right: 2px;
+        line-height: 210%;
+        font-size: 1.5vw;
+    }
+    @media (min-height: 450px) {
+        .curtain-content {
+            font-size: 2.2vh;
+        }
+        .tech-span {
+            font-size: 2vh;
+        }
+    }
+}
