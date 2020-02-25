@@ -488,16 +488,14 @@ body {
     .intro-block {
         font-size: 15pt;
     }
+    #aboutme, .skills-ul {
+        font-size: 3.9vh;
+    }
 }
 
 @media (max-height: 370px) {
     .intro-block {
         font-size: 14pt;
-    }
-    @media (max-width: 580px) {
-        #aboutme, .skills-ul {
-            font-size: 9pt;
-        }
     }
 }
 
