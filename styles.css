@@ -501,10 +501,7 @@ body {
     }
 }
 
-@media (hover: none), (max-width: 1250px) {
-    .curtain {
-        height: 100%;
-    }
+@media (hover: none) {
     .curtain-content {
         font-size: 1.9vw;
         padding: 3px;
